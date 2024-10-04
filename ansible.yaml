@@ -1,5 +1,4 @@
 - hosts: node
-  become: true
   tasks:
     - name: Create new deployment
       command: minikube kubectl -- apply  /home/ubuntu/deployment.yaml

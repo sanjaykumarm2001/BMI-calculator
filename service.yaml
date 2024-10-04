@@ -6,7 +6,8 @@ spec:
   selector:
     app: my-app  
   ports:
-  - protocol: TCP
-    port: 3000      
-    targetPort: 3000  
-  type: LoadBalancer
+    - protocol: TCP
+      port: 3000      
+      targetPort: 3000 
+      nodePort: 30001  
+  type: NodePort  

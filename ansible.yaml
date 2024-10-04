@@ -1,0 +1,8 @@
+- hosts: node
+  become: true
+  tasks:
+    - name: Create new deployment
+      command: minikube kubectl -- apply -f /home/ubuntu/deployment.yaml
+
+    - name: Create new service
+      command: minikube kubectl -- apply -f /home/ubuntu/service.yaml

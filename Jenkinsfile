@@ -13,7 +13,7 @@ pipeline {
             steps {
                 sshagent(['Ansible_login1']) {  
                     sh 'ssh -o StrictHostKeyChecking=no ubuntu@172.31.39.250'
-                    sh 'scp -r /var/lib/jenkins/workspace/newly/* ubuntu@172.31.39.250:/home/ubuntu'
+                    sh 'scp -r /var/lib/jenkins/workspace/job/* ubuntu@172.31.39.250:/home/ubuntu'
                 }
             }
         }

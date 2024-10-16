@@ -43,8 +43,8 @@ pipeline {
         stage('Copying files from Ansible to Minikube') {
             steps {
                 sshagent(['Ansible_login1']) {
-                    sh 'ssh -o StrictHostKeyChecking=no ubuntu@172.31.39.250 "scp -r /home/ubuntu/deployment.yaml ubuntu@172.31.36.216:/home/ubuntu/"'
-                    sh 'ssh -o StrictHostKeyChecking=no ubuntu@172.31.39.250 "scp -r /home/ubuntu/service.yaml ubuntu@172.31.36.216:/home/ubuntu/"'
+                    sh 'ssh -o StrictHostKeyChecking=no ubuntu@172.31.39.250 "scp -r /home/ubuntu/deployment.yaml ubuntu@172.31.93.52:/home/ubuntu/"'
+                    sh 'ssh -o StrictHostKeyChecking=no ubuntu@172.31.39.250 "scp -r /home/ubuntu/service.yaml ubuntu@172.31.93.52:/home/ubuntu/"'
                 }
             }
         }

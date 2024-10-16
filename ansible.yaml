@@ -5,9 +5,9 @@
 
     - name: Create new service
       command: kubectl apply -f  /home/ubuntu/service.yaml
-      
+
     - name: Wait for pod to be in running state
-      command: kubectl wait --for=condition=ready pod -l app=my-app
+      command: kubectl wait --for=condition=ready pod -l app=my-app --timeout=120s
 
     - name: Port forwarding 
       command: kubectl port-forward svc/my-app-service 30001:3000

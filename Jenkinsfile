@@ -13,7 +13,7 @@ pipeline {
             steps {
                 sshagent(['Ansible_login1']) {  
                     sh 'ssh -o StrictHostKeyChecking=no ubuntu@172.31.39.250'
-                    sh 'scp -r /var/lib/jenkins/workspace/job/* ubuntu@172.31.39.250:/home/ubuntu'
+                    sh 'scp -r /var/lib/jenkins/workspace/job@3/* ubuntu@172.31.39.250:/home/ubuntu'
                 }
             }
         }
@@ -51,7 +51,7 @@ pipeline {
         stage('running ansible playbook'){
             steps{
                 sshagent(['Ansible_login1']){
-                    sh 'ssh -o StrictHostKeyChecking=no ubuntu@172.31.39.250 "ansible-playbook /home/ubuntu/ansible.yaml"'
+                    sh 'ssh -o StrictHostKeyChecking=no ubuntu@172.31.39.250 "ansible-playbook -vvv /home/ubuntu/ansible.yaml"'
                 }
 
             }

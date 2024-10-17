@@ -14,6 +14,10 @@ Before you begin, ensure you have the following tools installed and configured o
 - An active AWS account with EC2 access
 
 ##  Work-Flow
+![Flow](https://github.com/user-attachments/assets/e735a2ee-79d8-4a1e-915a-54a138163081)
+
+
+##  Getting started
 
 #### 1. Clone the Repository
 
@@ -29,7 +33,7 @@ Before you begin, ensure you have the following tools installed and configured o
 #### 4. Deploying app on minikube
     The deployment of the application on Minikube is managed using deployment.yaml and service.yaml files, which define the necessary Kubernetes resources. This process is automated through an Ansible playbook, ensuring a streamlined deployment and easy access to the application.
 
-![Flow](https://github.com/user-attachments/assets/e735a2ee-79d8-4a1e-915a-54a138163081)
+
 
      
 

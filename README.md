@@ -1,7 +1,7 @@
 
 # BMI Calculator Application 
 
-    The BMI Calculator is a simple web application that allows users to calculate their Body Mass Index (BMI) based on their height and weight. This project demonstrates the use of containerization, orchestration, and automation tools for application deployment.
+The BMI Calculator is a simple web application that allows users to calculate their Body Mass Index (BMI) based on their height and weight. This project demonstrates the use of containerization, orchestration, and automation tools for application deployment.
 
 ## Prerequisites
 Before you begin, ensure you have the following tools installed and configured on your EC2 instance:

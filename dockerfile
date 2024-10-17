@@ -2,7 +2,7 @@
 FROM node:16-alpine AS build
 WORKDIR /opt
 COPY package*.json ./
-RUN npm install && npm install -g npm
+RUN npm install 
 FROM node:16-alpine
 WORKDIR /opt
 COPY --from=build /opt ./

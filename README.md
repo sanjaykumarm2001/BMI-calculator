@@ -34,6 +34,3 @@ Before you begin, ensure you have the following tools installed and configured o
 
 
 
-## Troubleshooting
-    *Docker Image Not Building: Ensure the Dockerfile is correct and all required files are present.
-    *Jenkins Build Failing: Check the Jenkins logs for errors and ensure credentials are properly configured

@@ -14,7 +14,7 @@ Before you begin, ensure you have the following tools installed and configured o
 - An active AWS account with EC2 access
 
 ##  Work-Flow
-![Flow](https://github.com/user-attachments/assets/e735a2ee-79d8-4a1e-915a-54a138163081)
+![Flow](https://github.com/user-attachments/assets/0cd13ab7-c571-4eba-85d6-497c8fbbe314)
 
 
 ##  Getting started
@@ -32,6 +32,10 @@ Before you begin, ensure you have the following tools installed and configured o
 
 #### 4. Deploying app on minikube
     The deployment of the application on Minikube is managed using deployment.yaml and service.yaml files, which define the necessary Kubernetes resources. This process is automated through an Ansible playbook, ensuring a streamlined deployment and easy access to the application.
+
+## Troubleshooting
+    *Docker Image Not Building: Ensure the Dockerfile is correct and all required files are present.
+    *Jenkins Build Failing: Check the Jenkins logs for errors and ensure credentials are properly configured
 
 
 

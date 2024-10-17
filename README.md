@@ -30,8 +30,7 @@ Before you begin, ensure you have the following tools installed and configured o
     The deployment of the application on Minikube is managed using deployment.yaml and service.yaml files, which define the necessary Kubernetes resources. This process is automated through an Ansible playbook, ensuring a streamlined deployment and easy access to the application.
 
 
-![Flow](https://github.com/user-attachments/assets/6d074e13-4719-4e2c-8f35-6b389f05da71)
- ![deploy sh](https://github.com/user-attachments/assets/fe721458-1b03-443a-a420-e8dd574cef36)
-
+ ![Flow](https://github.com/user-attachments/assets/6d074e13-4719-4e2c-8f35-6b389f05da71)
+ 
 
 

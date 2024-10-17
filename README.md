@@ -15,18 +15,18 @@ Before you begin, ensure you have the following tools installed and configured o
 
 ##  Work-Flow
 
-### 1. Clone the Repository
+#### 1. Clone the Repository
 
         Clone the repository using git clone https://github.com/sanjaykumarm2001/BMI-calculator
 
-### 2. Copying the files to Ansible server 
+#### 2. Copying the files to Ansible server 
 
     This process involves transferring all files from the Jenkins workspace to the Ansible server, ensuring efficient access for deployment and configuration management.
 
-### 3. Build the Docker Image
+#### 3. Build the Docker Image
      To automate the process of building a Docker image and pushing it to Docker Hub by ansible server  
 
-### 4. Deploying app on minikube
+#### 4. Deploying app on minikube
     The deployment of the application on Minikube is managed using deployment.yaml and service.yaml files, which define the necessary Kubernetes resources. This process is automated through an Ansible playbook, ensuring a streamlined deployment and easy access to the application.
 
 ![Screenshot 2024-10-17 160630](https://github.com/user-attachments/assets/6d074e13-4719-4e2c-8f35-6b389f05da71)

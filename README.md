@@ -35,6 +35,7 @@ The deployment of the application on Minikube is managed using deployment.yaml a
 
 ## Troubleshooting
 *Docker Image Not Building: Ensure the Dockerfile is correct and all required files are present.
+
 *Jenkins Build Failing: 
       Check the Jenkins logs for errors and ensure credentials are properly configured
 
